@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Full-screen Background Video -->
+    <video id="bg-video" autoplay muted loop>
+        <source src="C:\Users\savit\Downloads\4782416-uhd_3840_2160_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">WebConnect</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Unique Experience</h1>
+            <p>Explore dynamic design and cutting-edge features.</p>
+            <a href="#services" class="cta-button">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and modern websites with the latest technologies.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>App Design</h3>
+                <p>Designing user-friendly and visually appealing mobile applications.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Solutions</h3>
+                <p>Implementing scalable and secure cloud services tailored to your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="C:\Users\savit\Downloads\64fb2b64316862df3d2e099a_rcQYosTUaQ6hiJSAk7JphBXJCcZpPSAnq6u8U_3pnj0UVcHM5niGdGNBZ625bnZmRDTg4UQFOjd8tuczIfNSZ7JQeRBtnY4NHvGyGjRBe_DVE4QiDsVy9vcllRT7B1Ut7wx9CBDr945F26Um1hF4xM4.png" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project 1</h3>
+                    <p>Innovative design for an e-commerce platform.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="C:\Users\savit\Downloads\6673696d1346b25a072ca8a2_667078ae17e27a56b024b255_AD_4nXfbBe-L4QdOc3LubLALLGcgSldjPYX8Q1zS6HepOMPVSZ-fCOgZIgoh-cX23hfv662PlOidtMtnfc04KMX9wTHnguOXBALrQ1KW57VFz4CSaJDbC069YI38Kv2tm9RcowFg2Ha-isaU3rPFLZTsH65DVr_T.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project 2</h3>
+                    <p>Responsive app development for fitness tracking.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="C:\Users\savit\Downloads\6673696d89c4eb135c020afe_667078afbea85cb3d0ff8afa_AD_4nXeMxE9t-mI3et7m8Yduul9MVBLFwKSD4LmwHk9UCPjWYHaduuhjWSm8c5xRitXt6b8QJLtqKRoQul3XEzZ5hyExfBnOefrSy1Dncs3C4OZjxgunIPWddRx4l_p_AI3GpzWqHblhYylg3ZAOSj9ipn4rtCf-.png" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project 3</h3>
+                    <p>Cloud-based solution for enterprise management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!--<section id="about" class="about">
+        <h2>About Us</h2><div>
+        <p>We are a team of passionate professionals dedicated to delivering exceptional digital experiences through innovative solutions and cutting-edge technology.</p></div>
+    </section>-->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fa fa-rocket"></i>
+                    <h3>Innovation</h3>
+                    <p>We push the boundaries of technology and creativity to bring you the best solutions.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa fa-thumbs-up"></i>
+                    <h3>Quality</h3>
+                    <p>Our focus is on delivering high-quality products and services that exceed expectations.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fa fa-users"></i>
+                    <h3>Teamwork</h3>
+                    <p>We believe in the power of collaboration and working together to achieve great results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Unique Landing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
